@@ -20,6 +20,14 @@ button:disabled { opacity: .4; }
 button.primary { background: var(--brand); color: #fff; border-color: var(--brand); white-space: nowrap; }
 .who { font-size: 14px; padding: 6px 12px; }
 select { width: 100%; font: inherit; padding: 11px 12px; border: 1px solid var(--line); border-radius: 10px; background: var(--card); color: var(--ink); }
+.hdr-right { display: flex; gap: 8px; align-items: center; }
+.who.admin-on { background: #e6f2ee; border-color: var(--brand); color: var(--brand); }
+.padded { padding: 0 16px; }
+.admin-row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-top: 8px; }
+.admin-row button { padding: 6px 12px; font-size: 14px; }
+.admin-row input { width: 90px; padding: 6px 10px; }
+.mov .admin-row { margin: 0 0 8px; }
+button.danger { background: var(--bad); color: #fff; border-color: var(--bad); }
 .kpis { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin: 4px 0 12px; }
 .kpis div { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 10px 12px; display: flex; flex-direction: column; }
 .kpis strong { font-size: 22px; }
