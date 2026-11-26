@@ -1,5 +1,5 @@
 :root {
-  --bg: #f6f7f5; --card: #fff; --ink: #1c2420; --muted: #6b7670; --line: #e3e7e4;
+  --bg: #EDFAFA; --card: #fff; --ink: #1c2420; --muted: #6b7670; --line: #e3e7e4;
   --brand: #1f6f5c; --warn: #b7791f; --warn-bg: #fff7e6; --bad: #b42318; --bad-bg: #fdecea;
 }
 * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
