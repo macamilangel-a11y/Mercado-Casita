@@ -19,6 +19,15 @@ button { font: inherit; border: 1px solid var(--line); background: var(--card); 
 button:disabled { opacity: .4; }
 button.primary { background: var(--brand); color: #fff; border-color: var(--brand); white-space: nowrap; }
 .who { font-size: 14px; padding: 6px 12px; }
+select { width: 100%; font: inherit; padding: 11px 12px; border: 1px solid var(--line); border-radius: 10px; background: var(--card); color: var(--ink); }
+.kpis { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin: 4px 0 12px; }
+.kpis div { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 10px 12px; display: flex; flex-direction: column; }
+.kpis strong { font-size: 22px; }
+.kpis .warn { background: var(--warn-bg); border-color: #f2d9a6; }
+.tiles { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.tile { display: flex; flex-direction: column; align-items: flex-start; gap: 4px; padding: 18px 14px; border-radius: 16px; text-align: left; font-size: 17px; }
+.crumb { display: flex; align-items: center; gap: 12px; margin: 4px 0 8px; }
+.crumb button { padding: 6px 12px; font-size: 14px; }
 .filters { display: flex; gap: 6px; overflow-x: auto; padding-bottom: 4px; }
 .filters button { padding: 6px 12px; font-size: 14px; white-space: nowrap; border-radius: 999px; }
 .filters button.on { background: var(--brand); color: #fff; border-color: var(--brand); }
