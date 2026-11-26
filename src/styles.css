@@ -1,6 +1,6 @@
 :root {
   --bg: #EDFAFA; --card: #fff; --ink: #1c2420; --muted: #6b7670; --line: #e3e7e4;
-  --brand: #1f6f5c; --warn: #b7791f; --warn-bg: #fff7e6; --bad: #b42318; --bad-bg: #fdecea;
+  --brand: #135290; --warn: #b7791f; --warn-bg: #fff7e6; --bad: #b42318; --bad-bg: #fdecea;
 }
 * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
 body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.4 -apple-system, system-ui, sans-serif; }
