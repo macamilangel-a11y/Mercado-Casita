@@ -102,7 +102,7 @@ export default function App() {
   return (
     <div className="app">
       <header>
-        <h1>Despensa</h1>
+        <h1>Mercado 511</h1>
         <div className="hdr-right">
           {esMaki && !pin && <button className="who" onClick={() => setPidePin(!pidePin)}>🔒 Admin</button>}
           {admin && <button className="who admin-on" onClick={salirAdmin}>Admin ✓ salir</button>}
